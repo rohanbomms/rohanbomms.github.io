@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rohan's Site</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Rohan </h1>
+    <p>Welcome to my GitHub Pages site.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li><a href="#">Project A</a></li>
+        <li><a href="#">Project B</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <small>© <span id="year"></span> Rohan</small>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
